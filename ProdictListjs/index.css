@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+}
+.product {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .productDetails {
+    width: 70%;
+    padding: 20px;
+  }
