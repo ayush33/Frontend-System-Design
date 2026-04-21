@@ -1,0 +1,59 @@
+.container{
+    height: 100vh;              /* 🔥 bring this here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin: 0;
+   
+}
+.image-wrapper {
+    position: relative;
+    width: 200px;
+    margin: auto;
+  }
+
+.image img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+.circle{
+    position: absolute;
+    bottom: 15px;        /* 👈 move to bottom of image */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+  }
+.dot.active {
+    background: black;
+  }
+
+  .arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  .left {
+    left: 10px;
+  }
+  
+  /* right arrow */
+  .right {
+    right: 10px;
+  }
