@@ -1,0 +1,18 @@
+.start-container{
+  display: flex;
+  
+}
+.star{
+  width: 40px;
+}
+.star-icon-filled{
+  fill: yellowgreen;
+}
+
+.star-icon {
+  --icon-size: 32px;
+
+  cursor: pointer;
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
